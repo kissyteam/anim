@@ -1,0 +1,1 @@
+modulex.config("requires",{"anim/transition":["util","dom","anim/base","feature"]});

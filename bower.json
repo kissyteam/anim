@@ -1,0 +1,26 @@
+{
+  "name": "modulex-anim",
+  "author": "yiminghe <yiminghe@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/kissyteam/anim.git"
+  },
+  "dependencies": {
+    "modulex": "modulex#master",
+    "feature": "modulex-feature#master",
+    "dom": "modulex-dom#master",
+    "promise": "modulex-promise#master",
+    "util": "modulex-util#master"
+  },
+  "ignore": [
+    "**/*",
+    "!build/**/*",
+    "!lib/**/*",
+    "!meta/**/*",
+    "!index.js"
+  ],
+  "devDependencies": {
+    "modulex-color": "*"
+  }
+}

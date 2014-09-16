@@ -1,0 +1,1 @@
+modulex.config("requires",{"anim/timer":["dom","util","anim/base","feature"]});
