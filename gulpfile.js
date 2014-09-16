@@ -54,14 +54,14 @@ names.forEach(function (tag) {
                 },
                 excludeModules: excludeModulesMap[tag]
             }))
-//            .pipe(kclean({
-//                files: [
-//                    {
-//                        src: './lib/' + tag + '-debug.js',
-//                        outputModule: 'anim/' + tag
-//                    }
-//                ]
-//            }))
+            .pipe(kclean({
+                files: [
+                    {
+                        src: './lib/' + tag + '-debug.js',
+                        outputModule: 'anim/' + tag
+                    }
+                ]
+            }))
             .pipe(replace(/@VERSION@/g, packageInfo.version))
             .pipe(gulp.dest(path.resolve(build, 'anim' + dir)))
             .pipe(filter(basename + '-debug.js'))
