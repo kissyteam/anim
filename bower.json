@@ -21,6 +21,6 @@
     "!index.js"
   ],
   "devDependencies": {
-    "modulex-color": "*"
+    "modulex-color": "modulex-color#master"
   }
 }
