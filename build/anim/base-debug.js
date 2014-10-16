@@ -1,3 +1,8 @@
+/*
+Copyright 2014, modulex-anim@1.0.2
+MIT Licensed
+build time: Thu, 16 Oct 2014 06:46:47 GMT
+*/
 modulex.add("anim/base", ["dom","util","promise"], function(require, exports, module) {
 var dom = require("dom");
 var _util_ = require("util");

@@ -1,3 +1,8 @@
+/*
+Copyright 2014, modulex-anim@1.0.2
+MIT Licensed
+build time: Thu, 16 Oct 2014 06:46:47 GMT
+*/
 modulex.add("anim/transition", ["util","dom","anim/base","feature"], function(require, exports, module) {
 var _util_ = require("util");
 var dom = require("dom");
@@ -143,7 +148,7 @@ animTransition = function (exports) {
     // bad
     exports = TransitionAnim;
     TransitionAnim._name_ = 'TransitionAnim';
-    TransitionAnim.version = '1.0.1';
+    TransitionAnim.version = '1.0.2';
   } else {
     exports = null;
   }

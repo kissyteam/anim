@@ -1,3 +1,8 @@
+/*
+Copyright 2014, modulex-anim@1.0.2
+MIT Licensed
+build time: Thu, 16 Oct 2014 06:46:47 GMT
+*/
 modulex.add("anim/timer", ["util","dom","feature","anim/base"], function(require, exports, module) {
 var _util_ = require("util");
 var dom = require("dom");
@@ -959,7 +964,7 @@ animTimer = function (exports) {
   });
   TimerAnim.Easing = Easing;
   TimerAnim.Fx = Fx;
-  TimerAnim.version = '1.0.1';
+  TimerAnim.version = '1.0.2';
   TimerAnim._name_ = 'TimerAnim';
   util.mix(TimerAnim, AnimBase.Statics);
   exports = TimerAnim;

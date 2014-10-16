@@ -7,11 +7,11 @@
     "url": "http://github.com/kissyteam/anim.git"
   },
   "dependencies": {
-    "modulex": "modulex#master",
-    "feature": "modulex-feature#master",
-    "dom": "modulex-dom#master",
-    "promise": "modulex-promise#master",
-    "util": "modulex-util#master"
+    "modulex": "*",
+    "feature": "modulex-feature#1.x",
+    "dom": "modulex-dom#1.x",
+    "promise": "modulex-promise#1.x",
+    "util": "modulex-util#1.x"
   },
   "ignore": [
     "**/*",
@@ -21,6 +21,6 @@
     "!index.js"
   ],
   "devDependencies": {
-    "modulex-color": "modulex-color#master"
+    "modulex-color": "modulex-color#1.x"
   }
 }
