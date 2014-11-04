@@ -1,6 +1,6 @@
 {
   "name": "modulex-anim",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "yiminghe <yiminghe@gmail.com>",
   "engines": {
     "node": "~0.11"
@@ -68,7 +68,6 @@
     "browser-test-cover": "mocha-phantomjs -R node_modules/node-jscover/lib/reporters/mocha/console http://localhost:8016/tests/browser/runner.html?coverage"
   },
   "dependencies": {
-    "modulex": "^1.3.1",
     "modulex-dom": "^1.0.0",
     "modulex-feature": "^1.0.1",
     "modulex-promise": "^1.0.0",
