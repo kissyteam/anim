@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+  <script src="//g.alicdn.com/kissy/k/5.0.1/seed.js" data-config="{combine:true}"></script>
+</head>
+<body>
+
+  <div class="foo" id="f"></div>
+  <style>
+    .foo{
+      width: 100px;
+      height: 100px;
+      border: 1px solid;
+    }
+  </style>
+  <script>
+
+    function trigger(){
+
+      var s = document.getElementById('f')
+
+      require(['anim'], function(Anim){
+        // debugger
+        var a = new Anim(s, {
+          width:200
+        }, {
+          queue: 'x1'
+        })
+
+        var b = new Anim(s, {
+          height:200
+        }, {
+          queue:'x2'
+        })
+
+        a.run()
+        b.run()
+      })
+
+    }
+
+    trigger()
+
+
+
+
+  </script>
+  
+</body>
+</html>
